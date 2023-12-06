@@ -1,3 +1,22 @@
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  background-color: antiquewhite;
+}
+
+h1 {
+  background-color: blanchedalmond;
+  margin: 0px;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root {
+  width: 400px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +33,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #101d36;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
